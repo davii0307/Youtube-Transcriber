@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Transcriber</title>
+</head>
+<body>
+    <h1>YouTube Video Transcriber</h1>
+    <form method="POST">
+        <label for="youtube_url">YouTube URL:</label><br>
+        <input type="text" id="youtube_url" name="youtube_url" required><br><br>
+
+        <label for="output_name">Output File Name:</label><br>
+        <input type="text" id="output_name" name="output_name" required><br><br>
+
+        <label for="model_type">Whisper Model:</label><br>
+        <select id="model_type" name="model_type">
+            <option value="tiny">Tiny</option>
+            <option value="base" selected>Base</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select><br><br>
+
+        <button type="submit">Transcribe</button>
+    </form>
+</body>
+</html>
