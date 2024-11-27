@@ -237,8 +237,6 @@ pyDeprecate==0.3.2
 pydocstyle @ file:///tmp/build/80754af9/pydocstyle_1621600989141/work
 pyerfa @ file:///opt/concourse/worker/volumes/live/fef1f482-1dec-42b9-4439-b8031d24ea69/volume/pyerfa_1621560786048/work
 pyflakes @ file:///tmp/build/80754af9/pyflakes_1617200973297/work
-# Editable install with no version control (pyfrbus==1.0.0)
--e /Users/davidni/Downloads/pyfrbus_package
 Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
 PyJWT @ file:///opt/concourse/worker/volumes/live/bd094316-1935-4bf0-5028-b889d4e7967c/volume/pyjwt_1619682501859/work
 pylev @ file:///home/conda/feedstock_root/build_artifacts/pylev_1641226376343/work
